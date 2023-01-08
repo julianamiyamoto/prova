@@ -1,0 +1,17 @@
+programa
+{
+		
+	funcao inicio()
+	{
+		real dolares, cotacao
+	
+		escreva("Digite a quantidade de dolares que voce possui: ")
+		leia(dolares)
+
+		escreva("Digite o valor da cotação do dolar: ")
+		leia(cotacao)
+
+		escreva("valores da conversâo em R$: ", (dolares * cotacao))
+		
+	}
+}
