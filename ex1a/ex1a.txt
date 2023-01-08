@@ -1,0 +1,17 @@
+programa
+ {
+	funcao inicio()
+	{
+	     real x,y
+		escreva("Digite o primeiro numero: ")
+		leia(x)
+
+		escreva("Digite o segundo numero: ")
+		leia(y)
+
+		escreva(" A soma é: ", x+y)
+		escreva(" A subtração é: ", x-y)
+		escreva(" A multiplicação é: ", x*y)
+		escreva(" A divisão é: ", x/y)
+	}
+} 
